@@ -18,6 +18,6 @@ btn.addEventListener("click", function () {
       "You guessed too high! & You have " + maxAttempts + " attempts left";
     maxAttempts -= 1;
   } else if (maxAttempts === 4) {
-    output.innerHTML = "You weren't able to guess the correct number";
+    output.innerHTML =  "You weren't able to guess the correct number";
   }
 });
